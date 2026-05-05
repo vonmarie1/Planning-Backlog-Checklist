@@ -1,0 +1,3 @@
+- name: Smoke Test
+  run: |
+    curl -f https://vonmarie1.github.io/SIAM_CS3B/ || exit 1

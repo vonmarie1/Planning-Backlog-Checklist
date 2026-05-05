@@ -10,3 +10,7 @@
 | Poor user experience due to slow performance | 3                | 4            | 12    | Optimize backend and reduce unnecessary calls      | Full Stack Lead    |
 | Bugs not detected before submission          | 4                | 4            | 16    | Conduct QA testing every sprint                    | QA Tester          |
 | Git merge conflicts in team workflow         | 4                | 3            | 12    | Use feature branches and pull requests properly    | Git Manager        |
+
+Unauthorized access due to weak authentication | 3 | 5 | 15 | Implement stronger authentication | Backend Dev
+Exposure of sensitive data | 2 | 5 | 10 | Use environment variables | Backend Dev
+Injection attacks from user input | 3 | 4 | 12 | Validate and sanitize inputs | Backend Dev

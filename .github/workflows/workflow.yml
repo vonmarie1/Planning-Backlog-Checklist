@@ -1,3 +1,15 @@
-- name: Smoke Test
-  run: |
-    curl -f https://vonmarie1.github.io/SIAM_CS3B/ || exit 1
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run Smoke Test
+        run: |
+          curl -f https://vonmarie1.github.io/SIAM_CS3B/ || exit 1
